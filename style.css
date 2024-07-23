@@ -4,10 +4,7 @@
 }
 
 #menusuperior{
-  background-image: url(imagens/Ponta_Grossa_2019.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center
+  background-color: #eeeeee;
 }
 
 #moto{
@@ -20,8 +17,8 @@
   margin-top: -270px;
   font-size: 90px;
   margin-bottom: 5px;
-  background: #dbdf00a9;
-  background: linear-gradient(to right, #dbdf00e5 3%, #000000 14%, #000000 19%);
+  background-color: #000000;
+  background: linear-gradient(to right, #fd7014 3%, #393e46 14%, #222831 19%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -30,7 +27,7 @@
 #subtitulo{
   margin-left: 350px;
   padding-bottom: 60px;
-  color: rgb(255, 230, 0);
+  color: #fd7014;
   font-size: 25px;
   text-shadow: 2px 2px 2px black;
   background: none;
@@ -38,10 +35,10 @@
 
 #somos{
   padding: 20px;
-  color: white;
+  color: #222831;
   font-family: serif;
   text-align: center;
-  background-color: #004FA3;
+  background-color: #fd7014;
 }
  
 #servicos{
@@ -52,26 +49,28 @@
   margin-top: 4px;
   margin-bottom: 4px;
   margin-left: 4px;
-  background-color: rgb(163, 163, 163);
+  background-color: #222831;
+  color: #eeeeee;
 }
 
 #tabelavalor{
   color: black;
   background-color: black;
-  font-weight: 450;
+  font-weight: 200;
   border-color: black; 
   border-radius: 5px;
+  font-size: 180%;
 }
 
 #valores{
-  background-color: #00346b;
-  padding-bottom: 50px;
-  padding-left: 10px;
+  background-color: #eeeeee;
+  padding-bottom: 50%;
+  padding-left: 10%;
   margin: 4px;
 }
 
 #area{
-  color: yellow;
+  color: #eeeeee;
 }
 
 #apresentacao1{
@@ -87,8 +86,9 @@
 #formulario{
   text-align: center;
   padding-top: 30px;
-  background-color: #48a0ff;
+  background-color: #393e46;
   padding-bottom: 20px;
+  color: #fd7014;
 }
 
 #tituloformulario{
@@ -105,20 +105,21 @@
 
 
 .titulotabela{
-  color: blue;
-  background-color: rgb(253, 255, 116);
-  text-shadow: 1px 1px 1px black;
+  color: #eeeeee;
+  background-color: #393e46;
+  text-shadow: 0px 1px 1px black;
+  font-family: initial;
 }
 
 .tabeladentro{
-  background-color: yellow;
-  font-family: cursive;
+  background-color: #eeeeee;
+  font-family: jura ;
 }
 
 .tabelavalor{
   margin-left: 0px;
   margin-top: 20px;
-  color: white;
+  color: #222831;
 }
 
 input{
@@ -131,10 +132,10 @@ input{
 }
 
 button{
-  background-color: yellow;
+  background-color: #fd7014;
   height: 40px;
   width: 200px;
-  color: #00346b;
+  color: #ffffff;
   font-size: 20px;
   border: 0;
   border-radius: 5px;
@@ -143,8 +144,8 @@ button{
 }
 
 button:hover{
-  background-color: rgb(255, 255, 44);
-  color: #114781 ;
+  background-color: #fa7c28;
+  color: #ffffff ;
   transform: translateY(-4px);
-  box-shadow: 0px 15px 20px #234e7c;
+  box-shadow: 0px 15px 20px #4e4e4e;
 }
