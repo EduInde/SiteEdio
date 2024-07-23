@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title> EDIO serviços </title>
+</head>
+<body>
+
+  <!--MENU SUPERIOR-->
+  <div id="menusuperior">
+    <img src="imagens/moto.svg" id="moto" alt="ERRO">
+    <h1 id="titulo"> <strong>ÉDIO </strong> </h1>
+    <P id="subtitulo"> <strong> Serviço de entregas rápidas, de qualidade e com um preço justo </strong> </P>
+  </div>
+
+  <!--APRESENTAÇÃO da logistica-->
+  <div id="somos">
+   <h1>
+    Somos uma equipe de motoboys que buscam trazer agilidade e qualidade para nossos clientes, visando sempre um bom atendimento.
+    <p id="area"> <br> Atendendemos em Ponta Grossa/PR e região. <br></p>
+   </h1>
+  </div>
+
+   <div id="apresentacao1">
+   <p id="servicos">
+    Nossos atendimentos de entregas: <br> <br>
+    -Peças em geral; <br>
+    -Documentos; <br>
+    -Lanches; <br>
+    -Parceria com empresas; <br>
+    -Disponibilidade para viagens. (consultar valores) <br>
+    <br>
+    Para outro serviço, consultar via Whatsapp. <br>
+
+    (42) 9 9994-3772 <br>
+    ou clique aqui<br> <br>
+
+    <a href="https://wa.me/qr/6LBURPF77SEVH1"> <img src="imagens/whats2-removebg-preview.png" id="whats" height="120px" width= "120px"> </a>
+    </p> 
+
+    
+
+    <!--tabela de valores-->
+    <div id="valores">
+      <h1 class="tabelavalor"  id="nossosvalores"> NOSSOS VALORES!!! </h1> 
+      <table id="tabelavalor" class="tabelavalor" border="1">
+        <tr>
+          <th class="titulotabela">DISTÂNCIA</th>
+          <th class="titulotabela">VALOR</th>
+        </tr>
+         <tr>
+          <td class="tabeladentro"> Dentro de 1km </td>
+          <td class="tabeladentro">R$7,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 2km </td>
+          <td class="tabeladentro">R$9,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 3km </td>
+          <td class="tabeladentro">R$12,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 4km </td>
+          <td class="tabeladentro">R$14,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 5km </td>
+          <td class="tabeladentro">R$15,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 6km </td>
+          <td class="tabeladentro">R$18,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 7km </td>
+          <td class="tabeladentro">R$20,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 8km </td>
+          <td class="tabeladentro">R$22,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 9km </td>
+          <td class="tabeladentro">R$23,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 10km </td>
+          <td class="tabeladentro">R$25,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 11km </td>
+          <td class="tabeladentro">R$26,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 12km </td>
+          <td class="tabeladentro">R$27,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 13km </td>
+          <td class="tabeladentro">R$28,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 14km </td>
+          <td class="tabeladentro">R$29,00 </td>  
+        </tr>  
+        <tr>
+          <td class="tabeladentro"> Dentro de 15km a 20km </td>
+          <td class="tabeladentro">R$30,00 </td>  
+        </tr> 
+    </table>
+      <br>
+      <p class="tabelavalor"> <strong>Acima de 20km será cobrado <br> R$1,75 por KM + Um valor relação de KM/Litro <br> 20km = R$6,00 </strong> </p>
+      <br>
+      <p class="tabelavalor" id="raio"> <strong> OBS: </strong>Os valores são de acordo com os KMs rodados e não por raio  </p>
+    </div>
+  </div>
+
+  <!--formulario-->
+  <div id="formulario">
+    <h1 id="tituloformulario"> SAIBA O VALOR DA SUA ROTA </h1>
+    <p id="retornamos">Retornamos com uma resposta logo</p> <br>
+
+    <form id="form" method="post" action="https://api.sheetmonkey.io/form/6DnZwkETyYCkeZaQvyomLr">
+
+      <label for="remetente">Remetente</label>
+      <input type="text" name="Remetente" required placeholder="Nome"> 
+
+      <label for="telefone"> Telefone </label>
+      <input type="number"name="telefoneRemetente" required placeholder="Telefone"> 
+
+      <label for="rua">Endereço de Coleta</label>
+      <input type="text" name="EndColeta" required placeholder="Endereço">
+  
+      <label for="complemento">Complemento: </label>
+      <input type="text" name="ComplementoColeta" required placeholder="Complemento">
+      
+      <br>
+
+      <label for="remetente">Destinatário</label>
+      <input type="text" name="Destinatário" required placeholder="Nome"> 
+
+      <label for="telefone"> Telefone </label>
+      <input type="number" name="telefoneDestinatario" required placeholder="Telefone"> 
+
+      <label for="rua">Endereço de Entrega</label>
+      <input type="text" name="EndEntrega" required placeholder="Endereço">
+  
+      <label for="complemento">Complemento: </label>
+      <input type="text" name="ComplementoEntrega" required placeholder="Complemento">
+       <br><br>
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date" />
+  
+      <button type="submit"> Enviar </button>
+  </form>
+  
+  </div>
+
+</body>
+</html>
